@@ -3,7 +3,8 @@
 ## Contacts:
 __Phone:__ +7(911)914-\*\*-\*\*\
 __E-mail:__ nantonv@bk.ru\
-__GitHub:__ [AVndko](https://github.com/AVndko)
+__GitHub:__ [AVndko](https://github.com/AVndko)\
+__Telegram:__ @AVndko
 
 ## About me:
 I'm a civil engineer. For over a decade I've been designing in various fields of construction.\
