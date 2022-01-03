@@ -141,8 +141,12 @@ a:hover {
   width: 150px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   .section {
     width: 100%;
+  }
+
+  .container {
+    max-width: 500px;
   }
 }
