@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV | Anton Naydenko">
+    <link rel="stylesheet" href="./style.css">
+    <link type="image/x-icon" rel="shortcut icon" href="./assets/img/favicon.ico">
+    <link type="image/png" sizes="16x16" rel="icon" href="./assets/img/favicon_16x16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="./assets/img/favicon_32x32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="./assets/img/favicon_96x96.png">
+    <link type="image/png" sizes="120x120" rel="icon" href="./assets/img/favicon_120x120.png">
+    <link type="image/png" sizes="192x192" rel="icon" href="./assets/img/android-icon-192x192.png">
+    <title>CV | Anton Naydenko</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#sample-code" class="nav-link">Sample code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section main-container" itemscope itemtype="http://schema.org/Organization">
+                    <img class="round" src="./assets/img/avatar.jpg" width="150" height="150" alt="Avatar" itemprop="logo">
+                    <div>
+                        <h1 class="section-title" itemprop="name">Anton Naydenko</h1>
+                        <h2 class="section-title">Front-End Developer</h2>
+                    </div>
+                </section>
+                <section class="section" itemscope itemtype="http://schema.org/Organization">
+                    <h2 class="section-title">Contacts:</h2>
+                    <ul>
+                        <li><span style="font-weight:500">Phone:</span> <span itemprop="telephone">+7(911)914-**-**</span></li>
+                        <li><span style="font-weight:500">E-mail:</span> <span itemprop="email">nantonv@bk.ru</span></li>
+                        <li><span style="font-weight:500">GitHub:</span> <a href="https://github.com/AVndko">https://github.com/AVndko</a></li>
+                        <li><span style="font-weight:500">Telegram:</span> @AVndko</li>
+                    </ul>
+                </section>
+                <section class="section" id="about-me">
+                    <h2 class="section-title">About me:</h2>
+                    <p>I'm a civil engineer. For over a decade I've been designing in various fields of construction.</p>
+                    <p>Now I'm studying HTML, CSS and Java-Script to become a Front-End developer.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills:</h2>
+                    <ul>
+                        <li>HTML (Basic)</li>
+                        <li>CSS (Basic)</li>
+                        <li>CMS's: Joomla & OpenCart</li>
+                        <li>MySQL (Basic)</li>
+                        <li>Java Core</li>
+                        <li>Git (Basic)</li>
+                    </ul>
+                </section>
+                <section class="section" id="sample-code">
+                    <h2 class="section-title">Sample code:</h2>
+                    <pre><code>
+Random random = new Random();
+    for (int i = 0; i &lt; FIELD.length; i++) {
+         for (int j = 0; j &lt; FIELD[i].length; j++) {
+            FIELD[i][j] = (random.nextInt(2) == 0)?
+            "  FREE  ":"RESERVED";
+            }
+    }
+                    </code></pre>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects:</h2>
+                    <ul>
+                        <li><a href="https://github.com/AVndko/friendlyMentoring/tree/master/src/main/java/com/avndko/repo">Four Java tasks</a></li>
+                        <li><a href="#">My CV</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="experience">
+                    <h2 class="section-title">Experience:</h2>
+                    <ul>
+                        <li>Created sites for friends.</li>
+                        <li>Developed an Android application for exam preparation.</li>
+                        <li>Configured a MySQL server for a CAD application.</li>
+                    </ul>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education:</h2>
+                    <ul>
+                        <li>Studied C and C++ on courses at ITMO University.</li>
+                        <li>Studied Java on javarush.</li>
+                        <li>Graduated from St. Petersburg Polytechnic University with a degree in Numerical Wind Impact Modeling by Computational Fluid Dynamics (Bachelor's degree).</li>
+                    </ul>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English:</h2>
+                    <p>Now I'm studying English. My level is A2. I used to use English for travel.</p>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">            
+                <div>
+                    <span>© 2022</span>
+                    <a href="https://github.com/AVndko">AVndko</a>
+                </div>
+                <div>
+                    <a href="https://rs.school/js/">
+                        <img src="./assets/svg/rs_school_js.svg" alt="The Rolling Scopes School | JS" class="rss-logo">
+                    </a>
+                </div>            
+        </footer>
+    </div>
+</body>
+</html>

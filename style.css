@@ -1,0 +1,152 @@
+:root {
+  --bg-body: #dbdbdb;
+  --bg-wrapper: #c2c2c2;
+  --bg-header: #353535;
+  --link-color: #fff;
+  --link-color-hover: #000000;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("./assets/fonts/Ubuntu-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+  font-weight: 500;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {   
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: var(--bg-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--link-color);
+  transition: .4s;
+}
+
+a:hover {
+  color: var(--link-color-hover);
+  text-shadow: 1px 1px 2px var(--link-color-hover);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg-wrapper);
+  border-radius: 10px;
+  overflow:hidden;
+  box-shadow: 0 14px 28px var(--link-color-hover), 0 10px 10px var(--bg-header);
+}
+
+.header {
+  background-color: var(--bg-header);
+}
+
+.main {
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  min-width: 350px;     
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav-item {
+  padding-right: 40px;
+}
+
+.nav-item::before {
+  content: "|";
+  color: var(--link-color);
+}
+
+.nav-item::after {
+  content: "|";
+  color: var(--link-color);
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section {
+  width: 49%;
+  margin: 20px 5px;
+}
+
+.section-title {
+  font-weight: 500;
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+.round {
+  border-radius: 100px;
+  box-shadow: 0 3px 6px var(--bg-header), 0 5px 5px var(--bg-header);
+  transition: 3s;
+}
+
+.round:hover {
+  transform: scale(1.1);
+}
+
+.rss-logo {
+  height: 60px; 
+  width: 150px;
+}
+
+@media (max-width: 1000px) {
+  .section {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 300px;
+  }
+}
