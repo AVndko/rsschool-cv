@@ -136,6 +136,11 @@ a:hover {
     transform: scale(1.1);
   }
 
+.rss-logo {
+    height: 60px; 
+    width: 150px;
+ }
+
 @media (max-width: 450px) {
     .section {
       width: 100%;
